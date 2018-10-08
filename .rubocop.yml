@@ -1,0 +1,56 @@
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false  
+
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
+
+Layout/TrailingWhitespace:
+  Enabled: false
+
+Layout/TrailingBlankLines:
+  Enabled: false  
+
+Metrics/MethodLength:
+  Max: 40
+
+# SupportedStyles: snake_case, camelCase
+Naming/MethodName:
+  EnforcedStyle: camelCase
+
+# Configuration parameters: MinNameLength, AllowNamesEndingInNumbers, AllowedNames, ForbiddenNames.
+Naming/UncommunicativeMethodParamName:
+  MinNameLength: 1
+
+#############################
+##### check this later ######
+#############################
+
+Style/Documentation:
+  Enabled: false
+
+# Cop supports --auto-correct.
+# Configuration parameters: .
+# SupportedStyles: each, for
+Style/For:
+  EnforcedStyle: for
+
+# Offense count: 1
+# Configuration parameters: MinBodyLength.
+Style/GuardClause:
+  Enabled: false
+
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+# Configuration parameters: AutoCorrect, EnforcedStyle, IgnoredMethods.
+# SupportedStyles: predicate, comparison
+Style/NumericPredicate:
+  Enabled: false  
+
+
+Style/RedundantReturn:
+  Enabled: false  
