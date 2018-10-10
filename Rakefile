@@ -1,12 +1,11 @@
 require 'rubocop/rake_task'
 RuboCop::RakeTask.new
 
-desc 'Default task'
-task default: %w[run_tests]
+require 'rake/testtask'
 
-desc 'Task for unit tests'
-task :run_tests do
-  
-  puts 'Run your tests here'
-
+Rake::TestTask.new do |t|
+  t.pattern = 'Problems/Tests/PrimeNumber/*_tests.rb'
 end
+
+desc 'Default task'
+task default: %w[rubocop test]
