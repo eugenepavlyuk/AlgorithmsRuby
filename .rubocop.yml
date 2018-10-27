@@ -16,6 +16,9 @@ Layout/TrailingBlankLines:
 Metrics/MethodLength:
   Max: 40
 
+Metrics/LineLength:
+  Max: 120
+
 # SupportedStyles: snake_case, camelCase
 Naming/MethodName:
   EnforcedStyle: camelCase

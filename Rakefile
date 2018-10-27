@@ -4,7 +4,7 @@ RuboCop::RakeTask.new
 require 'rake/testtask'
 
 Rake::TestTask.new do |t|
-  t.pattern = 'Problems/Tests/PrimeNumber/*_tests.rb'
+  t.pattern = '**/*_tests.rb'
 end
 
 desc 'Default task'
