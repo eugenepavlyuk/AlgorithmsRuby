@@ -4,7 +4,7 @@ require_relative '../../PrimeNumber/prime_number.rb'
 
 # rubocop:disable Naming/MethodName
 
-class PrimeNumberTests < MiniTest::Unit::TestCase
+class PrimeNumberTests < Minitest::Test
 
   def test_7IsPrimeNumber
 

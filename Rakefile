@@ -3,8 +3,8 @@ RuboCop::RakeTask.new
 
 require 'rake/testtask'
 
-Rake::TestTask.new do |t|
-  t.pattern = '**/*_tests.rb'
+Rake::TestTask.new do |task|
+  task.pattern = '**/*_tests.rb'
 end
 
 desc 'Default task'
