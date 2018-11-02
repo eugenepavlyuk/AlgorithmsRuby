@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'minitest/autorun'
 
 require_relative '../../UniqueMorseCodeWords/unique_morse_code_words.rb'

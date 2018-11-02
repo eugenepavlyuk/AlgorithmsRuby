@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'minitest/autorun'
 
 require_relative '../../WordBreak/word_break.rb'
